@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate SVG Icons</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 class="title">Scroll To See Magic Again ...</h2>
+    <section></section>
+    <div class="container">
+        <h2>Welcome To Our Amazing Web Site</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa porro numquam, at quo quos eveniet
+            deserunt voluptas nihil hic odit ducimus consectetuelit. Ipsa porro numquam, at quo quos eveniet
+            deserunt voluptas nihil hic odit ducimus consectetuelit. Ipsa porro numquam, at quo quos eveniet
+            deserunt volupta Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quam, a culpa voluptates
+            assumenda harum minima, quaerat beatae
+            debitis repellendus at molestiae voluptatibus itaque? Ut voluptatum aliquid molestias quis odit? nihil hic
+             odit ducimus consectetuelit. Ipsa porro numquam, at quo quos eveniet
+           deserunt voluptas nihil Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quam, a culpa voluptates
+           assumenda harum minima, quaerat beatae
+           debitis repellendus at molestiae voluptatibus itaque? Ut voluptatum aliquid molestias quis odit? nihil hic
+            odit ducimus consectetuelit. Ipsa porro <br> numquam <br>, at quo quos eveniet
+          deserunt voluptas nihil Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quam, a culpa voluptates
+          assumenda harum minima, quaerat beatae
+          debitis repellendus at molestiae voluptatibus itaque? Ut voluptatum aliquid molestias quis odit? nihil hic
+           odit ducimus consectetuelit. Ipsa porro numquam, at quo quos eveniet
+         deserunt voluptas nihil hic odit ducimus consectetur atque vel alias! Voluptatibus hic pariatur laborum
+              laudantium.
+        </p>
+    </div>
+    <script type="text/javascript">
+
+        var section = document.querySelector('section');
+        window.addEventListener('scroll',function(){
+            var value = window.scrollY;
+            section.style.clipPath = "circle(" + value + "px at center)";
+        })
+
+    </script>
+</body>
+</html>
+
